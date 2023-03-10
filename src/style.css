@@ -31,9 +31,16 @@ nav ul {
 .final {
   justify-content: flex-end;
 }
+.dad-line {
+  display: flex;
+  align-items: center;
+}
 
-.line{
-    border-bottom: 2px solid #ffff;
+.line {
+  /* border-bottom: 2px solid #ffff; */
+  background-color: white;
+  width: 100px;
+  height: 5px;
 }
 
 .daddy {
@@ -49,31 +56,27 @@ nav ul {
   font-size: larger;
   color: white;
 }
-h2{
-    font-family: Montserrat;
-    font-size:x-large;
+h2 {
+  font-family: Montserrat;
+  font-size: x-large;
 }
 
 .section-cont {
-   
   width: auto;
   height: 500px;
   text-align: center;
-  background-color:white;
+  background-color: white;
 }
 .images {
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
   margin: 15px;
   justify-content: space-between;
-  
 }
 .img2 {
   width: 200px;
   height: 150px;
   margin-bottom: 10px;
-  
 }
