@@ -15,34 +15,65 @@
 
 nav ul {
   width: auto;
-  height: 40px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: Montserrat;
-  color:white;
-  background-color:#2c3e50;
+  color: white;
+  background-color: #2c3e50;
   list-style: none;
   font-style: bold;
 }
 .initial {
   flex-direction: initial;
 }
-.final{
-    justify-content: flex-end;
+.final {
+  justify-content: flex-end;
+}
+
+.line{
+    border-bottom: 2px solid #ffff;
 }
 
 .daddy {
-    display: flex;
+  display: flex;
   width: auto;
   height: 500px;
-  margin-bottom: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: #18bc9c;
   font-family: montserrat;
-  font-size:larger;
-  color:white;
+  font-size: larger;
+  color: white;
+}
+h2{
+    font-family: Montserrat;
+    font-size:x-large;
+}
+
+.section-cont {
+   
+  width: auto;
+  height: 500px;
+  text-align: center;
+  background-color:white;
+}
+.images {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 15px;
+  justify-content: space-between;
+  
+}
+.img2 {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+  
 }
